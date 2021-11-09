@@ -1,0 +1,24 @@
+{
+  "name": "str2-js2-practice-001",
+  "version": "1.0.0",
+  "description": "- Az `app.js` fájlban dolgozz!\r - Ne felejtsd el az `npm i` parancsot kiadni!\r - Teszteléshez az `npm test` parancsot használhatod.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test01 && npm run test02",
+    "test01": "node --experimental-vm-modules --no-warnings ./node_modules/jest/bin/jest __tests__/test01.spec.js",
+    "test02": "node --experimental-vm-modules --no-warnings ./node_modules/jest/bin/jest __tests__/test02.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "dependencies": {
+    "@types/jest": "^27.0.2",
+    "eslint-plugin-jest": "^25.2.1",
+    "jest": "^27.2.5"
+  }
+}
